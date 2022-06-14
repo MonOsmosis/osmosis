@@ -3,8 +3,8 @@ package gamm
 import (
 	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
 
-	"github.com/osmosis-labs/osmosis/v9/x/gamm/keeper"
-	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/keeper"
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

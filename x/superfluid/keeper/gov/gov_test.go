@@ -9,9 +9,9 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
 
-	minttypes "github.com/osmosis-labs/osmosis/v9/x/mint/types"
-	"github.com/osmosis-labs/osmosis/v9/x/superfluid/keeper/gov"
-	"github.com/osmosis-labs/osmosis/v9/x/superfluid/types"
+	minttypes "github.com/MonOsmosis/osmosis/v10/x/mint/types"
+	"github.com/MonOsmosis/osmosis/v10/x/superfluid/keeper/gov"
+	"github.com/MonOsmosis/osmosis/v10/x/superfluid/types"
 )
 
 func (suite *KeeperTestSuite) createGammPool(denoms []string) uint64 {

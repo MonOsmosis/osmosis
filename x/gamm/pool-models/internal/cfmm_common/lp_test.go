@@ -10,7 +10,7 @@ import (
 	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/internal/cfmm_common"
 	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/stableswap"
 
-	gammtypes "github.com/osmosis-labs/osmosis/v9/x/gamm/types"
+	gammtypes "github.com/MonOsmosis/osmosis/v10/x/gamm/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

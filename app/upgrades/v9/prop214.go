@@ -5,7 +5,7 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
 
-	gammkeeper "github.com/osmosis-labs/osmosis/v9/x/gamm/keeper"
+	gammkeeper "github.com/MonOsmosis/osmosis/v10/x/gamm/keeper"
 )
 
 // Executes prop214, https://www.mintscan.io/osmosis/proposals/214

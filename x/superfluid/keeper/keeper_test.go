@@ -12,12 +12,12 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
 
-	"github.com/osmosis-labs/osmosis/v9/app/apptesting"
-	epochtypes "github.com/osmosis-labs/osmosis/v9/x/epochs/types"
-	gammtypes "github.com/osmosis-labs/osmosis/v9/x/gamm/types"
-	minttypes "github.com/osmosis-labs/osmosis/v9/x/mint/types"
-	"github.com/osmosis-labs/osmosis/v9/x/superfluid/keeper"
-	"github.com/osmosis-labs/osmosis/v9/x/superfluid/types"
+	"github.com/MonOsmosis/osmosis/v10/app/apptesting"
+	epochtypes "github.com/MonOsmosis/osmosis/v10/x/epochs/types"
+	gammtypes "github.com/MonOsmosis/osmosis/v10/x/gamm/types"
+	minttypes "github.com/MonOsmosis/osmosis/v10/x/mint/types"
+	"github.com/MonOsmosis/osmosis/v10/x/superfluid/keeper"
+	"github.com/MonOsmosis/osmosis/v10/x/superfluid/types"
 )
 
 type KeeperTestSuite struct {

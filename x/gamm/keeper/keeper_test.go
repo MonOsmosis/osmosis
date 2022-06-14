@@ -10,8 +10,8 @@ import (
 	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
 	balancertypes "github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
 
-	"github.com/osmosis-labs/osmosis/v9/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
+	"github.com/MonOsmosis/osmosis/v10/app/apptesting"
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/types"
 )
 
 type KeeperTestSuite struct {

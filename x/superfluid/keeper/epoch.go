@@ -7,10 +7,10 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/osmoutils"
 
-	gammtypes "github.com/osmosis-labs/osmosis/v9/x/gamm/types"
-	incentivestypes "github.com/osmosis-labs/osmosis/v9/x/incentives/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v9/x/lockup/types"
-	"github.com/osmosis-labs/osmosis/v9/x/superfluid/types"
+	gammtypes "github.com/MonOsmosis/osmosis/v10/x/gamm/types"
+	incentivestypes "github.com/MonOsmosis/osmosis/v10/x/incentives/types"
+	lockuptypes "github.com/MonOsmosis/osmosis/v10/x/lockup/types"
+	"github.com/MonOsmosis/osmosis/v10/x/superfluid/types"
 )
 
 func (k Keeper) AfterEpochEnd(ctx sdk.Context, epochIdentifier string, _ int64) {

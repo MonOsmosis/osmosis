@@ -13,9 +13,9 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
 
-	osmoapp "github.com/osmosis-labs/osmosis/v9/app"
-	"github.com/osmosis-labs/osmosis/v9/x/gamm"
-	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
+	osmoapp "github.com/MonOsmosis/osmosis/v10/app"
+	"github.com/MonOsmosis/osmosis/v10/x/gamm"
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/types"
 )
 
 func TestGammInitGenesis(t *testing.T) {

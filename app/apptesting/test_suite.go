@@ -22,10 +22,10 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
 
-	"github.com/osmosis-labs/osmosis/v9/app"
-	gammtypes "github.com/osmosis-labs/osmosis/v9/x/gamm/types"
-	lockupkeeper "github.com/osmosis-labs/osmosis/v9/x/lockup/keeper"
-	lockuptypes "github.com/osmosis-labs/osmosis/v9/x/lockup/types"
+	"github.com/MonOsmosis/osmosis/v10/app"
+	gammtypes "github.com/MonOsmosis/osmosis/v10/x/gamm/types"
+	lockupkeeper "github.com/MonOsmosis/osmosis/v10/x/lockup/keeper"
+	lockuptypes "github.com/MonOsmosis/osmosis/v10/x/lockup/types"
 )
 
 type KeeperTestHelper struct {

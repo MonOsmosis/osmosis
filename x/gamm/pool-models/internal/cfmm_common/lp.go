@@ -8,7 +8,7 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/osmoutils"
 
-	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/types"
 )
 
 const errMsgFormatSharesLargerThanMax = "%s resulted shares is larger than the max amount of %s"

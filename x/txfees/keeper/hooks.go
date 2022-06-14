@@ -5,8 +5,8 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/osmoutils"
 
-	epochstypes "github.com/osmosis-labs/osmosis/v9/x/epochs/types"
-	txfeestypes "github.com/osmosis-labs/osmosis/v9/x/txfees/types"
+	epochstypes "github.com/MonOsmosis/osmosis/v10/x/epochs/types"
+	txfeestypes "github.com/MonOsmosis/osmosis/v10/x/txfees/types"
 )
 
 func (k Keeper) BeforeEpochStart(ctx sdk.Context, epochIdentifier string, epochNumber int64) {}

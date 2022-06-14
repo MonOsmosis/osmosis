@@ -11,10 +11,10 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/osmoutils"
 
-	"github.com/osmosis-labs/osmosis/v9/app"
-	"github.com/osmosis-labs/osmosis/v9/x/lockup/client/cli"
-	lockuptestutil "github.com/osmosis-labs/osmosis/v9/x/lockup/client/testutil"
-	"github.com/osmosis-labs/osmosis/v9/x/lockup/types"
+	"github.com/MonOsmosis/osmosis/v10/app"
+	"github.com/MonOsmosis/osmosis/v10/x/lockup/client/cli"
+	lockuptestutil "github.com/MonOsmosis/osmosis/v10/x/lockup/client/testutil"
+	"github.com/MonOsmosis/osmosis/v10/x/lockup/types"
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/crypto/hd"

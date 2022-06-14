@@ -12,9 +12,9 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/osmoutils"
 
-	appparams "github.com/osmosis-labs/osmosis/v9/app/params"
-	gammtypes "github.com/osmosis-labs/osmosis/v9/x/gamm/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v9/x/lockup/types"
+	appparams "github.com/MonOsmosis/osmosis/v10/app/params"
+	gammtypes "github.com/MonOsmosis/osmosis/v10/x/gamm/types"
+	lockuptypes "github.com/MonOsmosis/osmosis/v10/x/lockup/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/server"

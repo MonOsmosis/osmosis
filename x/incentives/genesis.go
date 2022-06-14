@@ -1,8 +1,8 @@
 package incentives
 
 import (
-	"github.com/osmosis-labs/osmosis/v9/x/incentives/keeper"
-	"github.com/osmosis-labs/osmosis/v9/x/incentives/types"
+	"github.com/MonOsmosis/osmosis/v10/x/incentives/keeper"
+	"github.com/MonOsmosis/osmosis/v10/x/incentives/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

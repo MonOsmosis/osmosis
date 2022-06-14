@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/osmosis-labs/osmosis/v9/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v9/x/incentives/keeper"
+	"github.com/MonOsmosis/osmosis/v10/app/apptesting"
+	"github.com/MonOsmosis/osmosis/v10/x/incentives/keeper"
 )
 
 type KeeperTestSuite struct {

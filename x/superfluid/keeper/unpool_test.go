@@ -10,9 +10,9 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
 
-	gammtypes "github.com/osmosis-labs/osmosis/v9/x/gamm/types"
-	"github.com/osmosis-labs/osmosis/v9/x/superfluid/keeper"
-	"github.com/osmosis-labs/osmosis/v9/x/superfluid/types"
+	gammtypes "github.com/MonOsmosis/osmosis/v10/x/gamm/types"
+	"github.com/MonOsmosis/osmosis/v10/x/superfluid/keeper"
+	"github.com/MonOsmosis/osmosis/v10/x/superfluid/types"
 )
 
 var (

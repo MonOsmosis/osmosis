@@ -14,7 +14,7 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/osmoutils"
 
-	"github.com/osmosis-labs/osmosis/v9/x/pool-incentives/types"
+	"github.com/MonOsmosis/osmosis/v10/x/pool-incentives/types"
 )
 
 func NewTxCmd() *cobra.Command {

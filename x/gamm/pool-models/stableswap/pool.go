@@ -11,7 +11,7 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/internal/cfmm_common"
 
-	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/types"
 )
 
 var _ types.PoolI = &Pool{}

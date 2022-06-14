@@ -7,7 +7,7 @@ import (
 
 	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/internal/cfmm_common"
 
-	types "github.com/osmosis-labs/osmosis/v9/x/gamm/types"
+	types "github.com/MonOsmosis/osmosis/v10/x/gamm/types"
 )
 
 var (
