@@ -10,7 +10,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/baseapp"
 
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/keeper"
-	"github.com/osmosis-labs/osmosis/v9/x/gamm/pool-models/balancer"
+	"github.com/MonOsmosis/osmosis/v9/x/gamm/pool-models/balancer"
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"

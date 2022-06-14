@@ -13,7 +13,7 @@ import (
 
 	osmoapp "github.com/osmosis-labs/osmosis/v9/app"
 	"github.com/osmosis-labs/osmosis/v9/x/gamm"
-	"github.com/osmosis-labs/osmosis/v9/x/gamm/pool-models/balancer"
+	"github.com/MonOsmosis/osmosis/v9/x/gamm/pool-models/balancer"
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
 )
 

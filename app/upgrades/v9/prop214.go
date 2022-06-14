@@ -4,7 +4,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	gammkeeper "github.com/osmosis-labs/osmosis/v9/x/gamm/keeper"
-	"github.com/osmosis-labs/osmosis/v9/x/gamm/pool-models/balancer"
+	"github.com/MonOsmosis/osmosis/v9/x/gamm/pool-models/balancer"
 )
 
 // Executes prop214, https://www.mintscan.io/osmosis/proposals/214

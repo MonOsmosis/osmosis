@@ -12,7 +12,7 @@ import (
 
 	"github.com/osmosis-labs/osmosis/v9/app/apptesting"
 	epochtypes "github.com/osmosis-labs/osmosis/v9/x/epochs/types"
-	"github.com/osmosis-labs/osmosis/v9/x/gamm/pool-models/balancer"
+	"github.com/MonOsmosis/osmosis/v9/x/gamm/pool-models/balancer"
 	gammtypes "github.com/osmosis-labs/osmosis/v9/x/gamm/types"
 	minttypes "github.com/osmosis-labs/osmosis/v9/x/mint/types"
 	"github.com/osmosis-labs/osmosis/v9/x/superfluid/keeper"

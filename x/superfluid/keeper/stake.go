@@ -3,7 +3,7 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/osmosis-labs/osmosis/v9/osmoutils"
+	"github.com/MonOsmosis/osmosis/v9/osmoutils"
 	lockuptypes "github.com/osmosis-labs/osmosis/v9/x/lockup/types"
 	"github.com/osmosis-labs/osmosis/v9/x/superfluid/types"
 

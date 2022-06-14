@@ -7,7 +7,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/v9/x/gamm/pool-models/balancer"
+	"github.com/MonOsmosis/osmosis/v9/x/gamm/pool-models/balancer"
 	minttypes "github.com/osmosis-labs/osmosis/v9/x/mint/types"
 	"github.com/osmosis-labs/osmosis/v9/x/superfluid/keeper/gov"
 	"github.com/osmosis-labs/osmosis/v9/x/superfluid/types"

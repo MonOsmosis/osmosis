@@ -10,7 +10,7 @@ import (
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
 	"github.com/osmosis-labs/osmosis/v9/app"
-	"github.com/osmosis-labs/osmosis/v9/osmoutils"
+	"github.com/MonOsmosis/osmosis/v9/osmoutils"
 	"github.com/osmosis-labs/osmosis/v9/x/lockup/client/cli"
 	lockuptestutil "github.com/osmosis-labs/osmosis/v9/x/lockup/client/testutil"
 	"github.com/osmosis-labs/osmosis/v9/x/lockup/types"

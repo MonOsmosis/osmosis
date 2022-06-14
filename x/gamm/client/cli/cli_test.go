@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"github.com/osmosis-labs/osmosis/v9/app"
-	"github.com/osmosis-labs/osmosis/v9/osmoutils"
+	"github.com/MonOsmosis/osmosis/v9/osmoutils"
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/client/cli"
 	gammtestutil "github.com/osmosis-labs/osmosis/v9/x/gamm/client/testutil"
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
