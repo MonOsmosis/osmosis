@@ -9,11 +9,11 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	v8constants "github.com/MonOsmosis/osmosis/v9/app/upgrades/v8/constants"
-	gammtypes "github.com/MonOsmosis/osmosis/v9/x/gamm/types"
-	lockuptypes "github.com/MonOsmosis/osmosis/v9/x/lockup/types"
+	v8constants "github.com/MonOsmosis/osmosis/v10/app/upgrades/v8/constants"
+	gammtypes "github.com/MonOsmosis/osmosis/v10/x/gamm/types"
+	lockuptypes "github.com/MonOsmosis/osmosis/v10/x/lockup/types"
 
-	"github.com/MonOsmosis/osmosis/v9/x/superfluid/types"
+	"github.com/MonOsmosis/osmosis/v10/x/superfluid/types"
 )
 
 type msgServer struct {

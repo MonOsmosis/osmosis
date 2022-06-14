@@ -3,8 +3,9 @@ package v9
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
+
 	gammkeeper "github.com/osmosis-labs/osmosis/v9/x/gamm/keeper"
-	"github.com/MonOsmosis/osmosis/v9/x/gamm/pool-models/balancer"
 )
 
 // Executes prop214, https://www.mintscan.io/osmosis/proposals/214

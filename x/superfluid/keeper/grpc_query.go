@@ -11,9 +11,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	appparams "github.com/MonOsmosis/osmosis/v9/app/params"
-	lockuptypes "github.com/MonOsmosis/osmosis/v9/x/lockup/types"
-	"github.com/MonOsmosis/osmosis/v9/x/superfluid/types"
+	appparams "github.com/MonOsmosis/osmosis/v10/app/params"
+	lockuptypes "github.com/MonOsmosis/osmosis/v10/x/lockup/types"
+	"github.com/MonOsmosis/osmosis/v10/x/superfluid/types"
 )
 
 var _ types.QueryServer = Querier{}

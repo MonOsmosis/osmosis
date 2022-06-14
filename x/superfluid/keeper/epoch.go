@@ -5,7 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/MonOsmosis/osmosis/v9/osmoutils"
+	"github.com/MonOsmosis/osmosis/v10/osmoutils"
+
 	gammtypes "github.com/osmosis-labs/osmosis/v9/x/gamm/types"
 	incentivestypes "github.com/osmosis-labs/osmosis/v9/x/incentives/types"
 	lockuptypes "github.com/osmosis-labs/osmosis/v9/x/lockup/types"

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/MonOsmosis/osmosis/v9/tests/e2e/chain"
+	"github.com/MonOsmosis/osmosis/v10/tests/e2e/chain"
 )
 
 func (s *IntegrationTestSuite) TestIBCTokenTransfer() {

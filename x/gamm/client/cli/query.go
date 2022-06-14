@@ -12,7 +12,8 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 
-	"github.com/MonOsmosis/osmosis/v9/x/gamm/pool-models/balancer"
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
+
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
 )
 

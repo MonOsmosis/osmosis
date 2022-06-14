@@ -11,9 +11,10 @@ import (
 	"github.com/tendermint/tendermint/crypto/ed25519"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
+
 	osmoapp "github.com/osmosis-labs/osmosis/v9/app"
 	"github.com/osmosis-labs/osmosis/v9/x/gamm"
-	"github.com/MonOsmosis/osmosis/v9/x/gamm/pool-models/balancer"
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
 )
 

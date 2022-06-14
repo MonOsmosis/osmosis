@@ -7,8 +7,9 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
+	"github.com/MonOsmosis/osmosis/v10/osmoutils"
+
 	"github.com/osmosis-labs/osmosis/v9/app"
-	"github.com/MonOsmosis/osmosis/v9/osmoutils"
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/client/cli"
 	gammtestutil "github.com/osmosis-labs/osmosis/v9/x/gamm/client/testutil"
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"

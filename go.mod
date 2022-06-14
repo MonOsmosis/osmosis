@@ -1,4 +1,4 @@
-module github.com/MonOsmosis/osmosis/v9
+module github.com/MonOsmosis/osmosis/v10
 
 go 1.18
 

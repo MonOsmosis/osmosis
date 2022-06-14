@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/MonOsmosis/osmosis/v9/app/apptesting"
-	v10 "github.com/MonOsmosis/osmosis/v9/app/upgrades/v10"
-	"github.com/MonOsmosis/osmosis/v9/x/gamm/types"
+	"github.com/MonOsmosis/osmosis/v10/app/apptesting"
+	v10 "github.com/MonOsmosis/osmosis/v10/app/upgrades/v10"
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/types"
 )
 
 type KeeperTestSuite struct {

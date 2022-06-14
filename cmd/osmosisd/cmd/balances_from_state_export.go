@@ -10,8 +10,9 @@ import (
 	tmjson "github.com/tendermint/tendermint/libs/json"
 	tmtypes "github.com/tendermint/tendermint/types"
 
+	"github.com/MonOsmosis/osmosis/v10/osmoutils"
+
 	appparams "github.com/osmosis-labs/osmosis/v9/app/params"
-	"github.com/MonOsmosis/osmosis/v9/osmoutils"
 	gammtypes "github.com/osmosis-labs/osmosis/v9/x/gamm/types"
 	lockuptypes "github.com/osmosis-labs/osmosis/v9/x/lockup/types"
 

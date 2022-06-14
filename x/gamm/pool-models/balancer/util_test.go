@@ -11,7 +11,8 @@ import (
 	tmtypes "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/MonOsmosis/osmosis/v9/x/gamm/pool-models/balancer"
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
+
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
 )
 

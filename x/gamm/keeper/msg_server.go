@@ -6,7 +6,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/MonOsmosis/osmosis/v9/x/gamm/pool-models/balancer"
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
+
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
 )
 

@@ -19,9 +19,10 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
+	"github.com/MonOsmosis/osmosis/v10/x/gamm/pool-models/balancer"
+
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/client/cli"
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/keeper"
-	"github.com/MonOsmosis/osmosis/v9/x/gamm/pool-models/balancer"
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/simulation"
 	"github.com/osmosis-labs/osmosis/v9/x/gamm/types"
 )
