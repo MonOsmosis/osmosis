@@ -11,17 +11,17 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
+	"github.com/MonOsmosis/osmosis/v3/x/mint/client/cli"
+	"github.com/MonOsmosis/osmosis/v3/x/mint/client/rest"
+	"github.com/MonOsmosis/osmosis/v3/x/mint/keeper"
+	"github.com/MonOsmosis/osmosis/v3/x/mint/simulation"
+	"github.com/MonOsmosis/osmosis/v3/x/mint/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/osmosis-labs/osmosis/x/mint/client/cli"
-	"github.com/osmosis-labs/osmosis/x/mint/client/rest"
-	"github.com/osmosis-labs/osmosis/x/mint/keeper"
-	"github.com/osmosis-labs/osmosis/x/mint/simulation"
-	"github.com/osmosis-labs/osmosis/x/mint/types"
 )
 
 var (

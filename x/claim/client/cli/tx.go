@@ -3,8 +3,8 @@ package cli
 import (
 	"fmt"
 
+	"github.com/MonOsmosis/osmosis/v3/x/claim/types"
 	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/osmosis-labs/osmosis/x/claim/types"
 	"github.com/spf13/cobra"
 )
 

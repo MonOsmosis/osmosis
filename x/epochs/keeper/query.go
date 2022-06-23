@@ -1,10 +1,10 @@
 package keeper
 
 import (
+	"github.com/MonOsmosis/osmosis/v3/x/epochs/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/osmosis-labs/osmosis/x/epochs/types"
 
 	abci "github.com/tendermint/tendermint/abci/types"
 )

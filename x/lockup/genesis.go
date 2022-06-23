@@ -1,9 +1,9 @@
 package lockup
 
 import (
+	"github.com/MonOsmosis/osmosis/v3/x/lockup/keeper"
+	"github.com/MonOsmosis/osmosis/v3/x/lockup/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/osmosis-labs/osmosis/x/lockup/keeper"
-	"github.com/osmosis-labs/osmosis/x/lockup/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

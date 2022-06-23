@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
+	"github.com/MonOsmosis/osmosis/v3/x/epochs/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/osmosis-labs/osmosis/x/epochs/types"
 )
 
 var _ types.QueryServer = Keeper{}

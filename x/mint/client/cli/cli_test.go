@@ -1,3 +1,4 @@
+//go:build norace
 // +build norace
 
 package cli_test
@@ -10,11 +11,11 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
+	"github.com/MonOsmosis/osmosis/v3/app"
+	"github.com/MonOsmosis/osmosis/v3/x/mint/client/cli"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/osmosis-labs/osmosis/app"
-	"github.com/osmosis-labs/osmosis/x/mint/client/cli"
 )
 
 type IntegrationTestSuite struct {

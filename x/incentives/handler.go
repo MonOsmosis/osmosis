@@ -3,10 +3,10 @@ package incentives
 import (
 	"fmt"
 
+	"github.com/MonOsmosis/osmosis/v3/x/incentives/keeper"
+	"github.com/MonOsmosis/osmosis/v3/x/incentives/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/osmosis-labs/osmosis/x/incentives/keeper"
-	"github.com/osmosis-labs/osmosis/x/incentives/types"
 )
 
 // NewHandler returns msg handler for this module

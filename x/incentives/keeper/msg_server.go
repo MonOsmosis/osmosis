@@ -3,10 +3,10 @@ package keeper
 import (
 	"context"
 
+	"github.com/MonOsmosis/osmosis/v3/x/gamm/utils"
+	"github.com/MonOsmosis/osmosis/v3/x/incentives/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/osmosis-labs/osmosis/x/gamm/utils"
-	"github.com/osmosis-labs/osmosis/x/incentives/types"
 )
 
 type msgServer struct {

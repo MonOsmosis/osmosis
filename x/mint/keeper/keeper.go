@@ -1,12 +1,12 @@
 package keeper
 
 import (
+	"github.com/MonOsmosis/osmosis/v3/x/mint/types"
+	poolincentivestypes "github.com/MonOsmosis/osmosis/v3/x/pool-incentives/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/osmosis-labs/osmosis/x/mint/types"
-	poolincentivestypes "github.com/osmosis-labs/osmosis/x/pool-incentives/types"
 	"github.com/tendermint/tendermint/libs/log"
 )
 

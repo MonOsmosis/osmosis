@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
+	simapp "github.com/MonOsmosis/osmosis/v3/app"
+	lockuptypes "github.com/MonOsmosis/osmosis/v3/x/lockup/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	simapp "github.com/osmosis-labs/osmosis/app"
-	lockuptypes "github.com/osmosis-labs/osmosis/x/lockup/types"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"

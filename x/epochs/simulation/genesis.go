@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/MonOsmosis/osmosis/v3/x/epochs/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/osmosis-labs/osmosis/x/epochs/types"
 )
 
 // RandomizedGenState generates a random GenesisState for mint

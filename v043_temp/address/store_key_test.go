@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/osmosis-labs/osmosis/v043_temp/address"
+	"github.com/MonOsmosis/osmosis/v3/v043_temp/address"
 )
 
 func TestStoreKeySuite(t *testing.T) {

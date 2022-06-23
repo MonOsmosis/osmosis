@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
+	"github.com/MonOsmosis/osmosis/v3/x/lockup/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/osmosis-labs/osmosis/x/lockup/types"
 )
 
 var _ types.QueryServer = Keeper{}

@@ -1,9 +1,9 @@
 package params
 
 import (
+	"github.com/MonOsmosis/osmosis/v3/v043_temp/address"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/osmosis-labs/osmosis/v043_temp/address"
 )
 
 const (

@@ -4,18 +4,18 @@ import (
 	"math/rand"
 	"time"
 
+	osmo_simulation "github.com/MonOsmosis/osmosis/v3/x/simulation"
 	"github.com/cosmos/cosmos-sdk/baseapp"
-	osmo_simulation "github.com/osmosis-labs/osmosis/x/simulation"
 
+	"github.com/MonOsmosis/osmosis/v3/x/incentives/keeper"
+	"github.com/MonOsmosis/osmosis/v3/x/incentives/types"
+	lockuptypes "github.com/MonOsmosis/osmosis/v3/x/lockup/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 	stakingTypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/osmosis-labs/osmosis/x/incentives/keeper"
-	"github.com/osmosis-labs/osmosis/x/incentives/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/x/lockup/types"
 )
 
 // Simulation operation weights constants

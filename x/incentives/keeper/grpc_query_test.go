@@ -3,10 +3,10 @@ package keeper_test
 import (
 	"time"
 
+	"github.com/MonOsmosis/osmosis/v3/x/incentives/types"
+	lockuptypes "github.com/MonOsmosis/osmosis/v3/x/lockup/types"
+	pooltypes "github.com/MonOsmosis/osmosis/v3/x/pool-incentives/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/osmosis-labs/osmosis/x/incentives/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/x/lockup/types"
-	pooltypes "github.com/osmosis-labs/osmosis/x/pool-incentives/types"
 )
 
 func (suite *KeeperTestSuite) TestGRPCGaugeByID() {

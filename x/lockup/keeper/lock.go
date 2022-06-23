@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/MonOsmosis/osmosis/v3/store"
+	"github.com/MonOsmosis/osmosis/v3/x/lockup/types"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/gogo/protobuf/proto"
-	"github.com/osmosis-labs/osmosis/store"
-	"github.com/osmosis-labs/osmosis/x/lockup/types"
 	db "github.com/tendermint/tm-db"
 )
 

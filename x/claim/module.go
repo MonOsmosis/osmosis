@@ -11,15 +11,15 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
+	"github.com/MonOsmosis/osmosis/v3/x/claim/client/cli"
+	"github.com/MonOsmosis/osmosis/v3/x/claim/client/rest"
+	"github.com/MonOsmosis/osmosis/v3/x/claim/keeper"
+	"github.com/MonOsmosis/osmosis/v3/x/claim/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/osmosis-labs/osmosis/x/claim/client/cli"
-	"github.com/osmosis-labs/osmosis/x/claim/client/rest"
-	"github.com/osmosis-labs/osmosis/x/claim/keeper"
-	"github.com/osmosis-labs/osmosis/x/claim/types"
 )
 
 var (

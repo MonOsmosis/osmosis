@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/MonOsmosis/osmosis/v3/x/incentives/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/osmosis-labs/osmosis/x/incentives/types"
 	"github.com/tendermint/tendermint/libs/log"
 )
 

@@ -5,8 +5,8 @@ package keeper
 import (
 	"fmt"
 
+	"github.com/MonOsmosis/osmosis/v3/x/gamm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/osmosis-labs/osmosis/x/gamm/types"
 )
 
 const poolBalanceInvariantName = "pool-account-balance-equals-expected"

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/MonOsmosis/osmosis/v3/x/epochs/keeper"
+	"github.com/MonOsmosis/osmosis/v3/x/epochs/types"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/osmosis-labs/osmosis/x/epochs/keeper"
-	"github.com/osmosis-labs/osmosis/x/epochs/types"
 )
 
 // BeginBlocker of epochs module

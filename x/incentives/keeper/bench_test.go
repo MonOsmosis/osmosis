@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/MonOsmosis/osmosis/v3/app"
+	lockuptypes "github.com/MonOsmosis/osmosis/v3/x/lockup/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/osmosis-labs/osmosis/app"
-	lockuptypes "github.com/osmosis-labs/osmosis/x/lockup/types"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 )

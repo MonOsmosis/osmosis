@@ -3,8 +3,8 @@ package keeper_test
 import (
 	"time"
 
+	"github.com/MonOsmosis/osmosis/v3/x/lockup/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/osmosis-labs/osmosis/x/lockup/types"
 )
 
 func (suite *KeeperTestSuite) TestBeginUnlocking() { // test for all unlockable coins
